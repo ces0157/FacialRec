@@ -70,7 +70,7 @@ class CamApp(App):
     #detection threshold is the threshold where our predictions is positive
     #verifcation_threshold is the threshold is the proportion of positive predictions to positive samples
     def verify(self, *args):
-        detection_threshold = 0.5
+        detection_threshold = 0.8
         verifcation_threshold = 0.5
         
         #Write our image to file
@@ -93,7 +93,7 @@ class CamApp(App):
         verification = detection / len(os.listdir(os.path.join('application_data', 'verifcation_images')))
         verified = verification > verifcation_threshold
 
-        self.verifcation_label.text = 'Verified' if verification == True else 'Unverified'
+        self.verifcation_label.text = 'Verified' if verified == True else 'Unverified'
         
         return results, verified
         
