@@ -18,7 +18,7 @@ To run the Facial Recogintion App you will need to install
 2. Tensorflow
 3. OpenCv
 
-##Running Facial Recoginition App
+## Running Facial Recoginition App
 To run the App use:
 '''
 python faceid.py
