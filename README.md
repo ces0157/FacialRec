@@ -5,7 +5,7 @@ The whole point of this project was really just to jump right into machine learn
 Along side his videos, I went through Google's machine learning crash course: https://developers.google.com/machine-learning/crash-course
 and read the the infamous "The Hundred-Page Machine Learning Book" by Andriy Burkov. All three of these learning materials really went hand-in hand with each other to help me better grasp and understand more of the coding and mathematics behind machine learning. I'll admit that I am still super new, and still quite confused on a lot of topics, but I can't wait to learn about them! I will be taking a machine learning and evolutionary computing course in my next semester and I couldn't be more excited.
 
-Working on this project, also gave me a huge appreication behind tools like tensorflow and pytroch. The people who paved the way to make libraries like that are quite remarkable, and I dream that I could make a contribution like that someday. I am also currently (as of July 2023) working on building an Nvidia jetbot, and hope to use this notebook on the bot!
+Working on this project, also gave me a huge appreication behind tools like tensorflow and pytorch. The people who paved the way to make libraries like that are quite remarkable, and I dream that I could make a contribution like that someday. I am also currently (as of July 2023) working on building an Nvidia jetbot, and hope to use this notebook on the bot!
 
 ## Packages for Juptyer Notebook
 The only package required to run the juptyer notebook is this DataSet :
@@ -19,10 +19,13 @@ To run the Facial Recogintion App you will need to install
 3. OpenCv
 
 ## Running Facial Recoginition App
+For obvious reasons I didn't include images of me to verify the results against, but if you wish to try against yourself, create a direcotry called 'application_data' and inside it, create two directories called 'input_images' and 'verification_images'. Add some random images of yourself to verification_images. 
 To run the App use:
-'''
+```
 python faceid.py
-'''
+```
+
+Thanks for reading this far, hope you have a great day :)
 
 
 
